@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xo Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="xo" class="XoGame">
+        <div id="yyy" class="topC">
+            <div class="round">
+                <h1>Round : <span id="RoundNum">1</span> </h1>
+            </div>
+            <div class="top">
+                <header >
+                    <div id="current" class="player">
+                        <p>X's Turn</p>
+                    </div>
+                    <div  class="player">
+                        <p>O's Turn</p>
+                    </div>
+                </header>
+                <div class="game">
+                    <div class="box" id="0">
+                        <p></p>
+                    </div>
+                    <div class="box" id="0">
+                        <p></p>
+                    </div>
+                    <div class="box" id="1">
+                        <p></p>
+                    </div>
+                    <div class="box" id="2">
+                        <p></p>
+                    </div>
+                    <div class="box" id="3">
+                        <p></p>
+                    </div>
+                    <div class="box" id="4">
+                        <p></p>
+                    </div>
+                    <div class="box" id="5">
+                        <p></p>
+                    </div>
+                    <div class="box" id="6">
+                        <p></p>
+                    </div>
+                    <div class="box" id="7">
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+        <div id="test">
+            <p id="X"><span>X</span> Player Score = <span id = 'xScore'>0</span></p>
+            <div class="vl"><p></p></div>
+            <p id="O"><span>O</span> Player Score = <span id = 'oScore'>0</span></p>
+        </div>
+        <div id="test2" class="play-again">
+            <p>Game is ended if You Wanna Play again just Click</p>
+            <button id="playAgainBtn">Play again</button>
+        </div>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
