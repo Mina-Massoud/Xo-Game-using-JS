@@ -9,3 +9,4 @@ This is a simple Xo Game web application that allows two players to play the cla
 - CSS
 - JavaScript
 ## image
+![image (3)](https://user-images.githubusercontent.com/102828808/224607140-ea26575c-f0a9-4f16-ac8a-e068b9b97dc6.png)
